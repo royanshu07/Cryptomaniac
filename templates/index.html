@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"/>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="../static/index.css">
+</head>
+<body style="background-color: black;">
+    <div class="main-container">
+      <nav class="navbar" style="margin-top: 30px;">
+          <div class="logo">
+              <img class="netflix-logo" src="../static/logo.jpg" width="80px" height="10px">
+          </div>
+          <div class="dropdown position-absolute top-1 end-0" style="margin-top:-18px;margin-right:180px">
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: transparent">
+                  English
+              </button>
+          <ul class="dropdown-menu dropdown-menu-dark" style="width: 50px">
+          <li>
+            <a class="dropdown-item active"href="#" style="height: 25px; font-size: small">English</a>
+          </li>
+          <li> 
+            <a class="dropdown-item" href="#" style="height: 25px; font-size: small">Hindi</a>
+          </li>
+        </ul>
+          </div>
+          <div class="sign-in-button">
+              <button type="button" class="btn btn-danger" style="width: 90px; height: 38px; margin-left: 25px; z-index: 1">
+                  Sign In 
+              </button>
+          </div>
+      </nav>
+      <div class="main-title-container position-absolute start-50">
+          <div class="main-head">
+              <h class="main-title">Unlimited movies, TV<br> shows and more.</h>
+          </div>
+          <div class="main-title-desc">
+              <div class="desc">Watch anywhere. Cancel anytime.</div>
+          </div>
+          <p class="main-pitch">
+              Search your favourite movies
+          </p>
+          <form action="/recommendation" method="POST" style="display:flex;gap:20px">
+            <div class="form-group shadow-textarea" style="margin-top: 30px;text-align: center;color: white;">
+              <input type="text" id="movie" name="movie" class="movie form-control" id="autoComplete" autocomplete="off" placeholder="Enter the Movie Name" style="background-color: #ffffff;border-color:#ffffff;width: 60%;color: #181818; border: 1px solid black; margin:auto; width: 530px;" required="required" />
+              <!-- <br> -->
+            </div>
+            <div class="form-group" style="text-align: center; display: flex; justify-content: center;">
+              <button type="submit" class="btn btn-primary btn-block movie-button" style="background-color: #e50914;text-align: center;border-color: #e50914;width:120px; margin-top:29px; height:fit-content">Search</button><br><br>
+            </div>
+          </form>
+      </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,113 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "What's up",
+        "Hi there"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! How can I assist you today?",
+        "Hey, how can I help you?",
+        "What's up? How can I assist you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "See you",
+        "Take care"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Have a great day!",
+        "Take care! See you soon!",
+        "Bye! Come back soon!"
+      ]
+    },
+    {
+      "tag": "crypto_price",
+      "patterns": [
+        "What is the price of Bitcoin?",
+        "How much does Ethereum cost?",
+        "Can you tell me the price of Litecoin?",
+        "What is the value of Dogecoin?",
+        "What is the current price of cryptocurrency?"
+      ],
+      "responses": [
+        "The price of {crypto} is {price}.",
+        "As of now, {crypto} is worth {price}.",
+        "The current value of {crypto} is {price}.",
+        "The price of {crypto} at the moment is {price}."
+      ]
+    },
+    {
+      "tag": "buy_crypto",
+      "patterns": [
+        "How can I buy Bitcoin?",
+        "What is the process to buy Ethereum?",
+        "Where can I purchase Litecoin?",
+        "Can you guide me to buy Dogecoin?",
+        "What are the steps to buy cryptocurrency?"
+      ],
+      "responses": [
+        "You can buy {crypto} on {exchange}.",
+        "To buy {crypto}, you can use {platform}.",
+        "You can purchase {crypto} through {method}.",
+        "The easiest way to buy {crypto} is through {exchange}."
+      ]
+    },
+    {
+      "tag": "sell_crypto",
+      "patterns": [
+        "How can I sell Bitcoin?",
+        "What is the process to sell Ethereum?",
+        "Where can I sell Litecoin?",
+        "Can you guide me to sell Dogecoin?",
+        "What are the steps to sell cryptocurrency?"
+      ],
+      "responses": [
+        "You can sell {crypto} on {exchange}.",
+        "To sell {crypto}, you can use {platform}.",
+        "You can trade {crypto} for cash through {method}.",
+        "The easiest way to sell {crypto} is through {exchange}."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Appreciate it",
+        "Thanks a lot",
+        "Thank you very much"
+      ],
+      "responses": [
+        "You're welcome!",
+        "No problem, happy to help!",
+        "Anytime!",
+        "My pleasure!"
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [
+        "I don't understand",
+        "Can you repeat that?",
+        "I'm not sure what you mean",
+        "Could you explain that to me?",
+        "Sorry, I didn't get that"
+      ],
+      "responses": [
+        " Sorry, I didn't understand your request"
+      ]
+  }
+]
+    }

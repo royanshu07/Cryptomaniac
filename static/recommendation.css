@@ -1,0 +1,33 @@
+.recommended-movies-container{
+    display:flex;
+    justify-content: space-between;
+    gap:20px;
+    flex-wrap: wrap;
+}
+.main-image{
+    border: 1px solid white;
+}
+.searched-movie{
+    display:flex;
+    justify-content: center;
+    gap:10px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: url("https://img.freepik.com/premium-vector/space-background-with-stars-vector-illustration_97886-319.jpg");
+}
+.about-movie{
+    width: 400px;
+    margin: 50px;
+}
+h{
+    margin:20px 20px;
+    font-size: 30px;
+    color: white;
+}
+p{
+    color:white
+}
+.recommended-movies-container{
+    margin:20px 20px;
+}

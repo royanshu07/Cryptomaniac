@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style copy.css') }}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CryptoManiac - Buy & Sell Digital Assets In The cryptex</title>
+    <link
+      rel="shortcut icon"
+      href="./static/favicon.svg"
+      type="image/svg+xml"
+    />
+    <link rel="stylesheet" href="../static/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+</head>
+<body>
+    <header class="header" data-header>
+        <div class="container">
+          <a href="/" class="logo">
+            <img
+              src="../static/logomain2.jpg"
+              width="32"
+              height="32"
+              alt="Cryptex logo"
+            />
+            CryptoManiac
+          </a>
+  
+          <nav class="navbar" data-navbar>
+            <ul class="navbar-list">
+              <li class="navbar-item">
+                <a href="/" class="navbar-link" data-nav-link>Homepage</a>
+              </li>
+  
+              <li class="navbar-item">
+                <a href="/predictions" class="navbar-link" data-nav-link>Predictions</a>
+              </li>
+  
+              <li class="navbar-item">
+                <a href="/blogs" class="navbar-link" data-nav-link>Blogs</a>
+              </li>
+  
+              <li class="navbar-item">
+                <a href="/support" class="navbar-link active" data-nav-link>Support</a>
+              </li>
+  
+              <li class="navbar-item">
+                <a href="/about" class="navbar-link" data-nav-link>About</a>
+              </li>
+            </ul>
+          </nav>
+  
+          <button
+            class="nav-toggle-btn"
+            aria-label="Toggle menu"
+            data-nav-toggler
+          >
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+            <span class="line line-3"></span>
+          </button>
+  
+          <a href="#" class="btn btn-outline">Wallet</a>
+          <button
+            class="nav-toggle-btn"
+            aria-label="Toggle menu"
+            data-nav-toggler
+          >
+            <span class="line line-1"></span>
+          </button>
+  
+          <a href="#" class="btn btn-outline">Sign In</a>
+        </div>
+      </header>
+
+      <section class="section hero" aria-label="hero" data-section>
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Support Center</h1>
+
+            <p class="hero-text">
+              Welcome to our cryptocurrency prediction website's support page! We understand that navigating the world of cryptocurrencies can be overwhelming, which is why we're here to help. Our team of experts is dedicated to providing you with the most accurate and up-to-date predictions for the top cryptocurrencies in the market.
+            </p>
+
+            <a href="/consultancy" class="btn btn-primary">Get Consultancy</a>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="../static/bg.jpg" width="570" height="448" alt="hero banner" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+  
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Chat support</h4>
+                    <p class="chatbox__description--header">Hi. My name is Sam. How can I help you?</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+          <!-- <p class="hero-text">
+            Support Chat ➡
+          </p> -->
+            <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+        </div>
+    </div>
+</div>
+
+    <script>
+        $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+
+</body>
+</html>
