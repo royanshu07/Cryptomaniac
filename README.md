@@ -9,7 +9,10 @@ uses an open API to fetch live crypto prices
 ![Screenshot (397)](https://github.com/royanshu07/Cryptomaniac/assets/102736425/3d21a641-fc0a-45ac-8cb1-13ec408a01fa)
 ![Screenshot (404)](https://github.com/royanshu07/Cryptomaniac/assets/102736425/c531b771-6d60-4711-86ac-d2015f943735)
 ![image](https://github.com/royanshu07/Cryptomaniac/assets/102736425/3971a5a2-7121-4968-b67c-d35c4495fc0c)
-![image](https://github.com/royanshu07/Cryptomaniac/assets/102736425/a699e242-ada1-4a92-bcca-e0fe993ec928)
+![image](https://github.com/royanshu07/Cryptomaniac/assets/102736425/fe3f417f-1ebe-4f51-8bb3-812652fe5c01)
+![image](https://github.com/royanshu07/Cryptomaniac/assets/102736425/8d6a970f-8059-466b-bfd0-fcfabd8c06cd)
+
+
 
 
 
